@@ -1,6 +1,6 @@
-let userAge = prompt("Votre age");
+let userAge = window.prompt("Votre age");
 
-if (parseInt(userAge) > 18) {
+if (parseInt(userAge) >= 18) {
     window.alert("Vous êtes majeur.");
 }
 else {

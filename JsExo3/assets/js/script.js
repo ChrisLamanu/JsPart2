@@ -1,4 +1,4 @@
-let userNum = prompt("Choisissez un nombre");
+let userNum = window.prompt("Choisissez un nombre");
 
 if (parseInt(userNum)%2 == 0) {
     window.alert("C'est un nombre pair.");
